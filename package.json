@@ -1,7 +1,7 @@
 {
   "name": "hawk",
   "description": "HTTP Hawk Authentication Scheme",
-  "version": "3.1.2",
+  "version": "3.1.2-sp1",
   "author": "Eran Hammer <eran@hammer.io> (http://hueniverse.com)",
   "contributors": [],
   "repository": "git://github.com/hueniverse/hawk",
@@ -27,7 +27,7 @@
     "lab": "5.x.x"
   },
   "scripts": {
-    "test": "lab -a code -t 100 -L",
+    "test": "lab -a code",
     "test-cov-html": "lab -a code -r html -o coverage.html"
   },
   "license": "BSD-3-Clause"
